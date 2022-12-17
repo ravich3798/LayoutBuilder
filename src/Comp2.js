@@ -125,7 +125,7 @@ function Comp2() {
                 </label>
               </div>
               <div>
-                <Switch defaultChecked style={{color:color}} onChange={(e)=>{
+                <Switch style={{color:color}} onChange={(e)=>{
                   if(drawerRight){
                     alert("Right-Drawer is already On")
                   }
@@ -135,7 +135,7 @@ function Comp2() {
                 <label>I want a left-side Drawer</label>
               </div>
               <div>
-                <Switch defaultChecked style={{color:color}} onChange={(e)=>{
+                <Switch  style={{color:color}} onChange={(e)=>{
                     if(drawerLeft){
                       alert("Left-Drawer is already On")
                     }

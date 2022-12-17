@@ -1,5 +1,5 @@
 import {createStore} from 'redux';
-    const data={logo:'left', color:'blue', header: true, footer :true, drawerOverlay: true, drawerRight: true, drawerLeft: true, navMenu: true, bottomMenu: true}
+    const data={logo:'left', color:'blue', header: true, footer :true, drawerOverlay: true, drawerRight: false, drawerLeft: false, navMenu: true, bottomMenu: true}
     const reducer = (state = data, action) => {
         console.log("action",action)
         switch(action.type){
